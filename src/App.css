@@ -28,6 +28,50 @@
   color: #61dafb;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0; /* removes whitespace along borders*/
+  padding: 0;
+}
+
+body{
+  font-family: 'Lora', serif;
+}
+
+#slideshow img{
+  height: "15rem";
+  width: "100%";
+}
+
+#trainers{
+  background-color: rgb(190, 211, 230);
+}
+
+#services{
+  background-color: rgb(78, 74, 74);
+}
+
+.services{
+  background-color: lightgray;
+  border-radius: 0.5rem;
+}
+
+@media only screen and (min-width: 45rem) {
+  #slideshow img {
+    height: 30rem;
+  }
+}
+
+@media only screen and (min-width: 80rem) {
+  #slideshow img {
+    height: 35rem;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
