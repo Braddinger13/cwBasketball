@@ -16,17 +16,18 @@ const Slideshow = () => {
             <p>CES Philly Fall Classic Champions - 8th Grade Boys</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={require("../pics/slide2.jpg")}
+            src={require("../pics/CoachesBack.jpeg")}
             alt="Second slide"
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
+            { <h3>Coahing at Competitive Edge</h3> }
           </Carousel.Caption>
         </Carousel.Item>
+        {/*
         <Carousel.Item>
           <img
             className="d-block w-100"
@@ -37,7 +38,7 @@ const Slideshow = () => {
           <Carousel.Caption>
             <h3>Third slide label</h3>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
       </Carousel>
     </div>
   );

@@ -23,14 +23,9 @@ const Trainers = () => {
             </div>
             <div className="col-md">
               <div>
-                <p className="lead">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                  ipsa numquam, non necessitatibus aspernatur quam nemo, sunt
-                  repellat placeat eaque temporibus optio quo fugit ratione
-                  ducimus aut eveniet dolorem ut sit rem sint. Rerum odit, nisi
-                  dolores aliquam nobis eum error officia impedit accusamus.
-                  Vero.
-                </p>
+                {/* <p className="lead">
+                  
+                </p> */}
               </div>
               <div>
                 <strong>
@@ -54,28 +49,29 @@ const Trainers = () => {
             <div className="col-md">
               <div className="my-3">
                 <img
-                  src={require("../pics/malcWebPic.jpg")}
-                  alt="Malcolm Williams"
+                  src={require("../pics/AidanPortraitResized.jpeg")}
+                  alt="Aidan Carroll"
                 />
                 <h3 className="my-3">Aidan Carroll</h3>
               </div>
             </div>
             <div className="col-md">
               <div>
-                <p className="lead">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                  ipsa numquam, non necessitatibus aspernatur quam nemo, sunt
-                  repellat placeat eaque temporibus optio quo fugit ratione
-                  ducimus aut eveniet dolorem ut sit rem sint. Rerum odit, nisi
-                  dolores aliquam nobis eum error officia impedit accusamus.
-                  Vero.
-                </p>
+                {/* <p className="lead">
+                  
+                </p> */}
               </div>
               <div>
                 <strong>
                   <p>Email: aidan.carroll6@gmail.com</p>
+                  <p>Phone: (484) 844-1140</p>
                 </strong>
-                <a href="" className="text-dark">
+                <a 
+                href="https://www.instagram.com/aidan.carroll/" 
+                className="text-dark"
+                target="_blank"
+                rel="noreferrer"
+                >
                   <span className="h2 bi bi-instagram mx-2"></span>
                 </a>
               </div>

@@ -13,7 +13,6 @@ function App() {
       <Services />
       <Trainers />
       {/* <Contact /> */}
-      {/* Calender System, Show availability */}
     </div>
   );
 }
