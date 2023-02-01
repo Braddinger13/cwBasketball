@@ -23,7 +23,8 @@ const Trainers = () => {
             </div>
             <div className="col-md">
               <div>
-                {/* <p className="lead">
+                {/* May add some info about trainer here
+                <p className="lead">
                   
                 </p> */}
               </div>

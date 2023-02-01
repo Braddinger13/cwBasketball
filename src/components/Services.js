@@ -12,31 +12,12 @@ const Services = () => {
             <div className="col-md py-3">
               <div>
                 <h3>One-On-One Training</h3>
-                {/* pic */}
               </div>
-              <div>
-                {/* <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Aliquid quod expedita autem obcaecati iusto nisi quis eum
-                  quaerat magnam, aut quia cupiditate doloribus nemo ad
-                  voluptatibus repellat commodi natus, debitis saepe pariatur
-                  eos aliquam sit.
-                </p> */}
-              </div>
-            </div>
+             </div>
             <div className="col-md py-3">
               <div>
                 <h3>Group Sessions</h3>
                 {/* pic */}
-              </div>
-              <div>
-                {/* <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Aliquid quod expedita autem obcaecati iusto nisi quis eum
-                  quaerat magnam, aut quia cupiditate doloribus nemo ad
-                  voluptatibus repellat commodi natus, debitis saepe pariatur
-                  eos aliquam sit.
-                </p> */}
               </div>
             </div>
           </div>
