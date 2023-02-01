@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import Slideshow from "./components/Slideshow";
 import Trainers from "./components/Trainers";
 import Services from "./components/Services";
-import Contact from "./components/Contact";
 
 function App() {
   return (
