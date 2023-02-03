@@ -78,6 +78,41 @@ const Trainers = () => {
               </div>
             </div>
           </div>
+          <br />
+          <br />
+          <div className="row align-items-center p-2" id="mal">
+            <div className="col-md">
+              <div className="my-3">
+                <img
+                  src={require("../pics/PierfyResized.jpeg")}
+                  alt="Malcolm Williams"
+                />
+                <h3 className="my-3">Phil Pierfy</h3>
+              </div>
+            </div>
+            <div className="col-md">
+              <div>
+                {/* May add some info about trainer here
+                <p className="lead">
+                  
+                </p> */}
+              </div>
+              <div>
+                <strong>
+                  <p>Email: pierfyp@arcadia.edu</p>
+                  <p>Phone: (484) 560-9111</p>
+                </strong>
+                <a
+                  href="https://www.instagram.com/ppierfy/"
+                  className="text-dark"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="h2 bi bi-instagram mx-2"></span>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
