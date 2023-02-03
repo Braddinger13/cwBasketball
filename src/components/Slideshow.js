@@ -24,7 +24,7 @@ const Slideshow = () => {
           />
 
           <Carousel.Caption>
-            { <h3>Coahing at Competitive Edge</h3> }
+            { <h3>Coaching at Competitive Edge</h3> }
           </Carousel.Caption>
         </Carousel.Item>
         {/*
